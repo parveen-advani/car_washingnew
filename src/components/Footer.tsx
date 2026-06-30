@@ -35,8 +35,8 @@ export function Footer() {
             <ul className="mt-4 space-y-2 text-sm text-muted-foreground">
               <li><a href="#services" className="hover:text-foreground">Exterior wash</a></li>
               <li><a href="#services" className="hover:text-foreground">Interior detailing</a></li>
-              <li><a href="#services" className="hover:text-foreground">Ceramic coating</a></li>
-              <li><a href="#services" className="hover:text-foreground">Paint correction</a></li>
+              <li><a href="#services" className="hover:text-foreground">Full polish & wax</a></li>
+              <li><a href="#services" className="hover:text-foreground">Tyre shine & alloy wheels</a></li>
             </ul>
           </div>
 
