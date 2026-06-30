@@ -53,9 +53,9 @@ export function Footer() {
           <div>
             <h4 className="text-sm font-bold uppercase tracking-wider">Reach us</h4>
             <ul className="mt-4 space-y-3 text-sm text-muted-foreground">
-              <li className="flex gap-2"><Phone className="h-4 w-4 text-aqua" /><a href="tel:+64212345678" className="hover:text-foreground">+64 20 4122 5212</a></li>
+              <li className="flex gap-2"><Phone className="h-4 w-4 text-aqua" /><a href="tel:0211850808" className="hover:text-foreground">021 185 0808</a></li>
               <li className="flex gap-2"><Mail className="h-4 w-4 text-aqua" /><a href="mailto:hi@SteamCleanco.nz" className="hover:text-foreground">hi@SteamCleanco.nz</a></li>
-              <li className="flex gap-2"><MapPin className="h-4 w-4 text-aqua" /> Auckland • Wellington • Christchurch</li>
+              <li className="flex gap-2"><MapPin className="h-4 w-4 text-aqua" />Napier • Hasting • Havelock North</li>
             </ul>
           </div>
         </div>

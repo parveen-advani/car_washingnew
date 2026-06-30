@@ -29,10 +29,10 @@ export function Navbar() {
             <span className="text-gold">●</span>&nbsp;&nbsp;38 Bridge Street, Ahuriri · Napier, NZ
           </p>
           <a
-            href="tel:+64212345678"
+            href="tel:0211850808"
             className="hidden items-center gap-1.5 font-mono uppercase tracking-[0.28em] text-muted-foreground transition-colors hover:text-foreground sm:inline-flex"
           >
-            <Phone className="h-3 w-3" /> +64 20 4122 5212
+            <Phone className="h-3 w-3" /> 021 185 0808
           </a>
         </div>
       </div>

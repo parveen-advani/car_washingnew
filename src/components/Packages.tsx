@@ -36,7 +36,6 @@ const packages = [
       "Tyre shine & alloy wheel detail",
       "Outside wash & quick dry",
       "Full exterior polish & wax",
-      "Special clay bar (on request)",
       "Soft shine colour enhancement",
     ],
   },

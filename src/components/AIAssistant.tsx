@@ -164,8 +164,8 @@ export function AIAssistant() {
                 <div key={i} className={`flex ${m.role === "user" ? "justify-end" : "justify-start"}`}>
                   <div
                     className={`max-w-[85%] rounded-2xl px-4 py-2.5 text-sm leading-relaxed whitespace-pre-wrap ${m.role === "user"
-                        ? "bg-gradient-to-br from-primary to-accent text-primary-foreground rounded-br-sm"
-                        : "bg-white/5 border border-white/10 text-foreground rounded-bl-sm"
+                      ? "bg-gradient-to-br from-primary to-accent text-primary-foreground rounded-br-sm"
+                      : "bg-white/5 border border-white/10 text-foreground rounded-bl-sm"
                       }`}
                   >
                     {m.content}

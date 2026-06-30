@@ -9,8 +9,6 @@ const services = [
   { icon: Sparkles, title: "Interior Steam Clean", desc: "Deep steam wash for seats, carpets, AC vents — kills bacteria and removes odours.", img: interior },
   { icon: Shield, title: "Full Polish & Wax", desc: "Multi-stage exterior polish and wax for mirror-like gloss and long-lasting protection.", img: ceramic },
   { icon: Gauge, title: "Tyre Shine & Alloy Wheels", desc: "Detailed tyre dressing and alloy wheel cleaning — spotless from rim to rubber.", img: exterior },
-  { icon: Wrench, title: "Clay Bar Treatment", desc: "Special clay bar decontamination — removes embedded particles for a glass-smooth finish.", img: interior },
-  { icon: Droplets, title: "Dashboard & Glass Polish", desc: "Crystal-clear glass cleaning and dashboard polish with UV protection.", img: ceramic },
 ];
 
 export function Services() {

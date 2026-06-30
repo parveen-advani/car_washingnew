@@ -44,7 +44,7 @@ export function Hero() {
             </span>
           </div>
           <span className="font-mono text-[10px] uppercase tracking-[0.35em] text-gold">
-            Est. 2014 · New Zealand
+            021 185 0808 · New Zealand
           </span>
         </motion.div>
 
@@ -58,7 +58,7 @@ export function Hero() {
               className="eyebrow mb-8"
             >
               <span className="mr-3 inline-block h-px w-10 align-middle bg-gold/60" />
-              The Mobile Detailing Co.
+              Car Wash At Your Home · Napier, Hasting & Havelock North
             </motion.p>
 
             <motion.h1
@@ -67,13 +67,11 @@ export function Hero() {
               transition={{ delay: 0.22, duration: 0.8 }}
               className="font-display text-[3.5rem] font-normal leading-[0.95] tracking-[-0.02em] sm:text-7xl lg:text-[6.5rem]"
             >
-              The quiet
+              Car Wash
               <br />
-              craft of a<br />
-              <em className="not-italic">
-                <span className="italic text-gold">truly</span>
-              </em>{" "}
-              <em className="italic">clean</em> car.
+              At Your
+              <br />
+              <em className="italic text-gold">Home.</em>
             </motion.h1>
 
             <motion.div
@@ -83,9 +81,9 @@ export function Hero() {
               className="mt-10 grid max-w-xl gap-6 sm:grid-cols-[1fr_auto] sm:items-end"
             >
               <p className="max-w-md text-[15px] leading-[1.75] text-muted-foreground">
-                Hand-finished detailing performed at your driveway by trained technicians.
-                Ceramic coating, paint correction, interior restoration — booked in
-                under sixty seconds, delivered with the patience of a workshop.
+                Professional car wash performed at your home — foam wash, interior steam clean,
+                full polish & wax, tyre shine and more. Serving Napier, Hasting and Havelock North.
+                Book in under sixty seconds.
               </p>
               <a
                 href="#book"
