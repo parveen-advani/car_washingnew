@@ -11,7 +11,7 @@ export function Footer() {
                 <Droplets className="h-5 w-5 text-primary-foreground" />
               </div>
               <span className="font-display text-xl font-bold tracking-wider">
-                AQUA<span className="text-gradient-aqua">DRIVE</span>
+                Steam<span className="text-gradient-aqua">Clean</span>
               </span>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">
