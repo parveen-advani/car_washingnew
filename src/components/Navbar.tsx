@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { Menu, X, Phone } from "lucide-react";
-
+import { Menu, X, Phone, MessageSquare } from "lucide-react";
 const links = [
   { href: "#services", label: "Services", num: "01" },
   { href: "#packages", label: "Packages", num: "02" },
