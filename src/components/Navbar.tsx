@@ -23,17 +23,30 @@ export function Navbar() {
   return (
     <>
       {/* Top announcement strip */}
-      <div className="fixed inset-x-0 top-0 z-[60] border-b border-white/[0.05] bg-background/85 backdrop-blur-xl">
+            <div className="fixed inset-x-0 top-0 z-[60] border-b border-white/[0.05] bg-background/85 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-2 text-[10px]">
-          <p className="font-mono uppercase tracking-[0.28em] text-muted-foreground">
+          <p className="hidden font-mono uppercase tracking-[0.28em] text-muted-foreground md:block">
             <span className="text-gold">●</span>&nbsp;&nbsp;Premium Mobile Car Wash
           </p>
-          <a
-            href="tel:0211850808"
-            className="hidden items-center gap-1.5 font-mono uppercase tracking-[0.28em] text-muted-foreground transition-colors hover:text-foreground sm:inline-flex"
-          >
-            <Phone className="h-3 w-3" /> 021 185 0808
-          </a>
+          <div className="flex w-full items-center justify-between gap-3 md:w-auto md:justify-end">
+            <span className="font-mono uppercase tracking-[0.28em] text-muted-foreground">
+              021 185 0808
+            </span>
+            <div className="flex items-center gap-2">
+              <a
+                href="tel:0211850808"
+                className="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-2.5 py-1 font-mono text-[9px] uppercase tracking-widest text-muted-foreground transition-colors hover:border-gold hover:bg-gold hover:text-primary-foreground"
+              >
+                <Phone className="h-2.5 w-2.5" /> Call
+              </a>
+              <a
+                href="sms:0211850808"
+                className="flex items-center gap-1.5 rounded-full border border-white/10 bg-white/5 px-2.5 py-1 font-mono text-[9px] uppercase tracking-widest text-muted-foreground transition-colors hover:border-gold hover:bg-gold hover:text-primary-foreground"
+              >
+                <MessageSquare className="h-2.5 w-2.5" /> Text
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
