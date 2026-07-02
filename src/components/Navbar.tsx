@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import { Menu, X, Phone } from "lucide-react";
 import { Menu, X, Phone, MessageSquare } from "lucide-react";
+
 const links = [
   { href: "#services", label: "Services", num: "01" },
   { href: "#packages", label: "Packages", num: "02" },
@@ -23,7 +23,7 @@ export function Navbar() {
   return (
     <>
       {/* Top announcement strip */}
-            <div className="fixed inset-x-0 top-0 z-[60] border-b border-white/[0.05] bg-background/85 backdrop-blur-xl">
+      <div className="fixed inset-x-0 top-0 z-[60] border-b border-white/[0.05] bg-background/85 backdrop-blur-xl">
         <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-6 py-2 text-[10px]">
           <p className="hidden font-mono uppercase tracking-[0.28em] text-muted-foreground md:block">
             <span className="text-gold">●</span>&nbsp;&nbsp;Premium Mobile Car Wash
